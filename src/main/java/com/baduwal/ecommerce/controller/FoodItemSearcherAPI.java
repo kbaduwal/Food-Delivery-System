@@ -7,7 +7,7 @@ import com.baduwal.ecommerce.entity.FoodItem;
 
 import java.util.List;
 
-public class FoodItemSearcher {
+public class FoodItemSearcherAPI {
 
     public List<FoodItem> searchFoodItem(String foodItem, MealType mealType, List<CuisineType> cuisines, StarRating rating){
         return null;

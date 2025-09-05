@@ -28,9 +28,12 @@ public class FoodItemSearcher {
                 }
                 foodItems=filteredFFoodItems;
             }
-
         }
         return foodItems;
+    }
+
+    public FoodItem searchById(int id) {
+
     }
 
 }

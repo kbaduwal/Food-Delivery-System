@@ -2,8 +2,9 @@ package com.baduwal.ecommerce.service;
 
 import com.baduwal.ecommerce.data.StarRating;
 import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.entity.Restaurant;
 
-public class StarRatingFilter implements FoodItemFilter{
+public class StarRatingFilter implements FoodItemFilter, RestaurantFilter{
 
     private final StarRating rating;
 
@@ -14,5 +15,10 @@ public class StarRatingFilter implements FoodItemFilter{
     @Override
     public boolean filter(FoodItem foodItem) {
         return foodItem.getStarRating().getVal()>=rating.getVal();
+    }
+
+    @Override
+    public boolean filter(Restaurant restaurant) {
+        return restaurant.getRating().getVal()>=rating.getVal();
     }
 }

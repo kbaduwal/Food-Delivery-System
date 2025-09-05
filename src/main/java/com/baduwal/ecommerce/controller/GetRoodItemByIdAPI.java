@@ -1,0 +1,14 @@
+package com.baduwal.ecommerce.controller;
+
+import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.searchers.FoodItemSearcher;
+
+public class GetRoodItemByIdAPI {
+    public FoodItem getFoodItemById(int id) {
+        if(id < 0){
+            return null;
+        }
+
+        return new FoodItemSearcher().searchById(id);
+    }
+}
