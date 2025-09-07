@@ -21,4 +21,5 @@ public class Restaurant {
     private final List<CuisineType> cuisines;
     private final StarRating rating;
     private final Menu menu;
+    private final Address address;
 }

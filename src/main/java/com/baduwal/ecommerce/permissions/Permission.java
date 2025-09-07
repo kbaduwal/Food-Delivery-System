@@ -1,4 +1,6 @@
 package com.baduwal.ecommerce.permissions;
 
-public class Permission {
+public interface Permission {
+
+    boolean isPermitted();
 }
