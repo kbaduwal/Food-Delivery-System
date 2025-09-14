@@ -1,8 +1,8 @@
-package com.baduwal.ecommerce.entity;
+package com.baduwal.ecommerce.data.entity;
 
-import com.baduwal.ecommerce.data.CuisineType;
-import com.baduwal.ecommerce.data.MealType;
-import com.baduwal.ecommerce.data.StarRating;
+import com.baduwal.ecommerce.data.enums.CuisineType;
+import com.baduwal.ecommerce.data.enums.MealType;
+import com.baduwal.ecommerce.data.enums.StarRating;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

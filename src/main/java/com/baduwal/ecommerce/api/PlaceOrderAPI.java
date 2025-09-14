@@ -1,9 +1,9 @@
 package com.baduwal.ecommerce.api;
 
 import com.baduwal.ecommerce.data.PaymentResponse;
-import com.baduwal.ecommerce.data.PaymentStatus;
-import com.baduwal.ecommerce.entity.Order;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.enums.PaymentStatus;
+import com.baduwal.ecommerce.data.entity.Order;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.factory.PaymentManagerFactory;
 import com.baduwal.ecommerce.managers.OrderManager;
 import com.baduwal.ecommerce.managers.PaymentManager;

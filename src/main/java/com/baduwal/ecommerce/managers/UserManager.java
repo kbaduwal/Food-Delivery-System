@@ -1,6 +1,6 @@
 package com.baduwal.ecommerce.managers;
 
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.entity.User;
 
 public class UserManager {
 

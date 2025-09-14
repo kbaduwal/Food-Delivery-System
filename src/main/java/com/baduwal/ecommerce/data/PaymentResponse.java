@@ -1,8 +1,8 @@
 package com.baduwal.ecommerce.data;
 
+import com.baduwal.ecommerce.data.enums.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 @AllArgsConstructor

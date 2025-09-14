@@ -3,9 +3,9 @@ package com.baduwal.ecommerce.managers;
 import com.baduwal.ecommerce.data.DataAccessObjectConverter;
 import com.baduwal.ecommerce.data.DataAccessResult;
 import com.baduwal.ecommerce.data.DataAccessor;
-import com.baduwal.ecommerce.entity.CartItem;
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.entity.CartItem;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.factory.PermissionFactory;
 import com.baduwal.ecommerce.permissions.Permission;
 

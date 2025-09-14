@@ -1,11 +1,10 @@
 package com.baduwal.ecommerce.permissions;
 
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.Restaurant;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.Restaurant;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.managers.DeliveryManager;
 import com.baduwal.ecommerce.searchers.RestaurantSearcher;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

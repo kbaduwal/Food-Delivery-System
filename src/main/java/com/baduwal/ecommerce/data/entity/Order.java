@@ -1,6 +1,6 @@
-package com.baduwal.ecommerce.entity;
+package com.baduwal.ecommerce.data.entity;
 
-import com.baduwal.ecommerce.data.OrderStatus;
+import com.baduwal.ecommerce.data.enums.OrderStatus;
 import lombok.Getter;
 
 import java.util.List;

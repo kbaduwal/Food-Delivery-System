@@ -7,8 +7,8 @@ package com.baduwal.ecommerce.searchers;
 import com.baduwal.ecommerce.data.DataAccessObjectConverter;
 import com.baduwal.ecommerce.data.DataAccessResult;
 import com.baduwal.ecommerce.data.DataAccessor;
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.service.FoodItemFilter;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.filters.FoodItemFilter;
 
 import java.util.ArrayList;
 import java.util.List;

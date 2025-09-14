@@ -1,8 +1,8 @@
 package com.baduwal.ecommerce.permissions;
 
-import com.baduwal.ecommerce.data.OrderStatus;
-import com.baduwal.ecommerce.entity.Order;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.enums.OrderStatus;
+import com.baduwal.ecommerce.data.entity.Order;
+import com.baduwal.ecommerce.data.entity.User;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

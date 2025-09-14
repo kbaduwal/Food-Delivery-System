@@ -1,11 +1,11 @@
 package com.baduwal.ecommerce.api;
 
-import com.baduwal.ecommerce.data.CuisineType;
-import com.baduwal.ecommerce.data.MealType;
-import com.baduwal.ecommerce.data.StarRating;
-import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.data.enums.CuisineType;
+import com.baduwal.ecommerce.data.enums.MealType;
+import com.baduwal.ecommerce.data.enums.StarRating;
+import com.baduwal.ecommerce.data.entity.FoodItem;
 import com.baduwal.ecommerce.searchers.FoodItemSearcher;
-import com.baduwal.ecommerce.service.*;
+import com.baduwal.ecommerce.filters.*;
 
 import java.util.ArrayList;
 import java.util.List;

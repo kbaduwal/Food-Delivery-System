@@ -1,7 +1,7 @@
 package com.baduwal.ecommerce.data;
 
-import com.baduwal.ecommerce.entity.CartItem;
-import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.CartItem;
+import com.baduwal.ecommerce.data.entity.FoodItem;
 
 import java.util.List;
 

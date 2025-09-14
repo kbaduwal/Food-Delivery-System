@@ -1,4 +1,4 @@
-package com.baduwal.ecommerce.data;
+package com.baduwal.ecommerce.data.enums;
 
 public enum PaymentStatus {
     SUCCESS,

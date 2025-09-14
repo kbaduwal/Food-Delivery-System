@@ -1,8 +1,8 @@
-package com.baduwal.ecommerce.service;
+package com.baduwal.ecommerce.filters;
 
-import com.baduwal.ecommerce.data.CuisineType;
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.Restaurant;
+import com.baduwal.ecommerce.data.enums.CuisineType;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.Restaurant;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baduwal.ecommerce.entity;
+package com.baduwal.ecommerce.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

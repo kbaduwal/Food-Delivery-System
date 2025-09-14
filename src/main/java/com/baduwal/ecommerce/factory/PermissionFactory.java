@@ -1,9 +1,9 @@
 package com.baduwal.ecommerce.factory;
 
-import com.baduwal.ecommerce.data.OrderStatus;
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.Order;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.enums.OrderStatus;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.Order;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.permissions.*;
 
 public class PermissionFactory {

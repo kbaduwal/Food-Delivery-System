@@ -1,8 +1,6 @@
 package com.baduwal.ecommerce.permissions;
 
-import com.baduwal.ecommerce.entity.User;
-import lombok.Getter;
-import lombok.Setter;
+import com.baduwal.ecommerce.data.entity.User;
 
 
 public class PlaceOrderPermission implements Permission {

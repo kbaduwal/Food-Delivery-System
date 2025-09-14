@@ -1,6 +1,6 @@
 package com.baduwal.ecommerce.api;
 
-import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.FoodItem;
 import com.baduwal.ecommerce.searchers.FoodItemSearcher;
 
 public class GetRoodItemByIdAPI {

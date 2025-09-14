@@ -1,10 +1,10 @@
 package com.baduwal.ecommerce.managers;
 
 import com.baduwal.ecommerce.data.DataAccessor;
-import com.baduwal.ecommerce.data.OrderStatus;
-import com.baduwal.ecommerce.entity.CartItem;
-import com.baduwal.ecommerce.entity.Order;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.enums.OrderStatus;
+import com.baduwal.ecommerce.data.entity.CartItem;
+import com.baduwal.ecommerce.data.entity.Order;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.factory.PermissionFactory;
 import com.baduwal.ecommerce.permissions.Permission;
 

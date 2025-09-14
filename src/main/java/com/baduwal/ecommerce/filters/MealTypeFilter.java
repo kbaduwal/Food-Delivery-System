@@ -1,8 +1,8 @@
-package com.baduwal.ecommerce.service;
+package com.baduwal.ecommerce.filters;
 
-import com.baduwal.ecommerce.data.MealType;
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.Restaurant;
+import com.baduwal.ecommerce.data.enums.MealType;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.Restaurant;
 
 public class MealTypeFilter implements FoodItemFilter, RestaurantFilter {
 

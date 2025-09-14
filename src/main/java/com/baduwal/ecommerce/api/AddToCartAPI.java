@@ -1,7 +1,7 @@
 package com.baduwal.ecommerce.api;
 
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.User;
 import com.baduwal.ecommerce.managers.CartManager;
 import com.baduwal.ecommerce.managers.UserManager;
 import com.baduwal.ecommerce.searchers.FoodItemSearcher;

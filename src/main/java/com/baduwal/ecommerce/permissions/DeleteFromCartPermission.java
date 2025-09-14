@@ -1,7 +1,7 @@
 package com.baduwal.ecommerce.permissions;
 
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.User;
+import com.baduwal.ecommerce.data.entity.FoodItem;
+import com.baduwal.ecommerce.data.entity.User;
 
 public class DeleteFromCartPermission implements Permission {
 

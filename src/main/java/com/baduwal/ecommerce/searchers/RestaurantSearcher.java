@@ -1,11 +1,8 @@
 package com.baduwal.ecommerce.searchers;
 
-import com.baduwal.ecommerce.entity.FoodItem;
-import com.baduwal.ecommerce.entity.Restaurant;
-import com.baduwal.ecommerce.service.FoodItemFilter;
-import com.baduwal.ecommerce.service.RestaurantFilter;
+import com.baduwal.ecommerce.data.entity.Restaurant;
+import com.baduwal.ecommerce.filters.RestaurantFilter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class RestaurantSearcher {
