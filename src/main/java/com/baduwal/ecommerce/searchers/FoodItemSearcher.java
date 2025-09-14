@@ -21,7 +21,7 @@ public class FoodItemSearcher {
         }
 
         DataAccessResult dataAccessResult = DataAccessor.getFoodItemWithName(foodItemName);
-        List<FoodItem> foodItems = DataAccessObjectConverter.convertToCartItems(dataAccessResult);
+        List<FoodItem> foodItems = DataAccessObjectConverter.convertToFoodItems(dataAccessResult);
 
         for(FoodItemFilter filter : filters) {
             List<FoodItem> filteredFFoodItems = new ArrayList<>();
@@ -36,7 +36,7 @@ public class FoodItemSearcher {
     }
 
     public FoodItem searchById(int id) {
-
+        return null;
     }
 
 }

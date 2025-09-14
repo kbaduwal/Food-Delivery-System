@@ -16,7 +16,7 @@ public class RestaurantSearcher {
     }
 
     public Restaurant searchById(int id){
-
+        return null;
     }
 
 }

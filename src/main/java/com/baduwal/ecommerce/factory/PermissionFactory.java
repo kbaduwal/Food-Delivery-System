@@ -14,7 +14,6 @@ public class PermissionFactory {
 
     public static Permission getAddToCartPermission(User user, FoodItem foodItem){
         return new AddToCartPermission(user, foodItem);
-
     }
 
     public static Permission getDeleteFromCartPermission(User user, FoodItem foodItem){

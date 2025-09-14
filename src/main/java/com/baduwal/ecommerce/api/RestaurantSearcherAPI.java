@@ -1,4 +1,4 @@
-package com.baduwal.ecommerce.controller;
+package com.baduwal.ecommerce.api;
 
 import com.baduwal.ecommerce.data.CuisineType;
 import com.baduwal.ecommerce.data.MealType;

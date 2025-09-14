@@ -1,4 +1,4 @@
-package com.baduwal.ecommerce.controller;
+package com.baduwal.ecommerce.api;
 
 import com.baduwal.ecommerce.data.OrderStatus;
 import com.baduwal.ecommerce.entity.Order;
