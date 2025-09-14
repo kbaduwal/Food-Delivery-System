@@ -4,6 +4,9 @@ package com.baduwal.ecommerce.searchers;
 //Fetching data from database
 //Business class
 
+import com.baduwal.ecommerce.data.DataAccessObjectConverter;
+import com.baduwal.ecommerce.data.DataAccessResult;
+import com.baduwal.ecommerce.data.DataAccessor;
 import com.baduwal.ecommerce.entity.FoodItem;
 import com.baduwal.ecommerce.service.FoodItemFilter;
 
@@ -17,8 +20,8 @@ public class FoodItemSearcher {
             throw new IllegalArgumentException("foodItemName or foodItemName is null or empty");
         }
 
-        DataAccessResult dataAccessResult = DataAccessor.getFoodItemsWithName(foodItemName);
-        List<FoodItem> foodItems = DataAccessObjectConverter.convertToFoodItems(dataAccessResult);
+        DataAccessResult dataAccessResult = DataAccessor.getFoodItemWithName(foodItemName);
+        List<FoodItem> foodItems = DataAccessObjectConverter.convertToCartItems(dataAccessResult);
 
         for(FoodItemFilter filter : filters) {
             List<FoodItem> filteredFFoodItems = new ArrayList<>();

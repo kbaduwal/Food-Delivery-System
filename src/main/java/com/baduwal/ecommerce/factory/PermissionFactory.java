@@ -1,11 +1,10 @@
 package com.baduwal.ecommerce.factory;
 
+import com.baduwal.ecommerce.data.OrderStatus;
 import com.baduwal.ecommerce.entity.FoodItem;
+import com.baduwal.ecommerce.entity.Order;
 import com.baduwal.ecommerce.entity.User;
-import com.baduwal.ecommerce.permissions.AddToCartPermission;
-import com.baduwal.ecommerce.permissions.CheckoutCartPermission;
-import com.baduwal.ecommerce.permissions.DeleteFromCartPermission;
-import com.baduwal.ecommerce.permissions.Permission;
+import com.baduwal.ecommerce.permissions.*;
 
 public class PermissionFactory {
 
@@ -26,6 +25,14 @@ public class PermissionFactory {
     public static Permission getCheckOutCartPermission(User user){
         return new CheckoutCartPermission(user);
 
+    }
+
+    public static Permission getPlaceOrderPermission(User user){
+        return new PlaceOrderPermission(user);
+    }
+
+    public static Permission getUpdateOrderPermission(User user, Order order, OrderStatus orderStatus){
+        return new UpdateOrderPermission(user, order, orderStatus);
     }
 
 

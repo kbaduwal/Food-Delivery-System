@@ -1,7 +1,10 @@
 package com.baduwal.ecommerce.data;
 
+import com.baduwal.ecommerce.entity.CartItem;
 import com.baduwal.ecommerce.entity.FoodItem;
 import com.baduwal.ecommerce.entity.User;
+
+import java.util.List;
 
 public class DataAccessor {
 
@@ -25,6 +28,10 @@ public class DataAccessor {
 
     public static void checkOutCart(User user){
 
+    }
+
+    public static int createOrder(User user, List<CartItem> cartItems) {
+        return 1;
     }
 
 }
