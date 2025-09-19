@@ -1,4 +1,5 @@
 package com.baduwal.ecommerce.api;
+//This package could be the service
 
 import com.baduwal.ecommerce.data.enums.OrderStatus;
 import com.baduwal.ecommerce.data.entity.Order;
